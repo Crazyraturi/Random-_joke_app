@@ -27,7 +27,7 @@ const JokeFetcher = () => {
   }, []);
 
   return (
-    <div className="w-200 rounded-lg h-52 flex items-center justify-center bg-gray-100">
+    <div className="w-200 rounded-full h-52 flex items-center justify-center bg-gray-100">
       <p className="bg-yellow-100 text-gray-800 rounded-2xl shadow-lg p-6 text-xl max-w-xl text-center">
         {joke}
       </p>
